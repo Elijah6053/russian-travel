@@ -178,7 +178,7 @@
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 1.5px;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     margin-left: 24px;
   }
 }
@@ -201,7 +201,7 @@
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 1.5px;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     margin-left: 16px;
   }
 
@@ -269,6 +269,7 @@
 
 .intro__list {
   margin: 0;
+  list-style-type: none;
   margin-left: -40px;
   font-weight: 700;
   font-size: 12px;
@@ -545,7 +546,6 @@
 }
 
 .cover__container__subtitle {
-  margin: 0;
   padding: 0;
   margin: auto;
   width: 360px;
@@ -568,7 +568,6 @@
   }
   
   .cover__container__subtitle {
-    margin: 0;
     padding: 0;
     margin: auto;
     width: 288px;
