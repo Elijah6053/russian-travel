@@ -1,0 +1,17 @@
+.places {
+  overflow: hidden;
+  max-width: 984px;
+  margin: auto;
+  margin-top: 92px;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 720px) {
+  .places {
+    overflow: hidden;
+    max-width: 984px;
+    margin: auto;
+    margin-top: 92px;
+    margin-bottom: 12px;
+  }
+}
