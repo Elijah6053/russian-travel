@@ -50,8 +50,6 @@
   margin:0;
   padding:0;
   color: #FFFFFF;
-  min-width: 22x;
-  min-height: 20px;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
@@ -92,11 +90,9 @@
     margin:0;
     padding:0;
     color: #FFFFFF;
-    min-width: 22x;
-    min-height: 20px;
     font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
   .header__logo {
     max-width: 142px;
