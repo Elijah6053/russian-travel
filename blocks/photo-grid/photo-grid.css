@@ -5,29 +5,17 @@
   gap: 12px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
-  margin: auto;
+  margin: 0 auto 0 auto;
 }
 
 @media screen and (max-width: 1000px) {
   .photo-grid {
     width: calc(100% - 48px);
-    display: grid;
-    justify-items: stretch;
-    gap: 12px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
-    margin: auto;
   }
 }
 
 @media screen and (max-width: 720px) {
   .photo-grid {
     width: calc(100% - 32px);
-    display: grid;
-    justify-items: stretch;
-    gap: 12px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
-    margin: auto;
   }
 }
