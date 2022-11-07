@@ -1,6 +1,6 @@
 .places__place {
   margin-bottom: 80px;
-  gap: 48px 28px;
+  gap: 48px 40px;
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-areas:
@@ -9,15 +9,21 @@
   justify-items: stretch;
 }
 
+.places__place:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1150px) {
   .places__place {
     grid-template-columns: 440px 1fr;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 1000px) {
   .places__place {
     grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
     margin-bottom: 73px;
   }
 }
